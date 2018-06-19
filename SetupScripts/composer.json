@@ -1,0 +1,22 @@
+{
+  "name": "adobuu/Setup-Scripts",
+  "description": "Test Composer Module",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "honate"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BA\\SetupScripts\\": ""
+    }
+  }
+}
